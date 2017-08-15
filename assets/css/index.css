@@ -1,0 +1,102 @@
+.app_banner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.app_banner_title {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.app_banner_child {
+    width: 300%;
+}
+
+.app_banner_child ul {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.app_banner_child ul li {
+    list-style: none;
+    height: 100%;
+    float: left;
+}
+
+.app_header_ul_right li {
+    width: 60px;
+    text-align: center;
+    margin-left: 20px;
+}
+.title_container{
+    margin-top: 340px;
+}
+.app_header_ul_right li a {
+    font-size: 14px;
+    color: rgb(253, 250, 250);
+    line-height: 1.2;
+}
+
+.app_banner_title p {
+    text-align: center;
+    color: #fff;
+}
+
+.banner_first_title {
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+.banner_line {
+    display: block;
+    width: 56px;
+    border-bottom: 2px #fff solid;
+    margin: 24px auto 0;
+}
+
+.banner_second_title {
+    font-size: 60px;
+    font-family: "Microsoft YaHei";
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 20px;
+    margin-top: 24px;
+}
+.banner_third_title{
+    font-size: 20px;
+    letter-spacing: 8px;
+    margin-top:36px;
+}
+.banner_fourth_title{
+    margin-top: 83px;
+    text-align: center;
+}
+.banner_button{
+    color: #14a7e4;
+    padding:8px 32px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #14a7e4;
+}
+.banner_button::after{
+    content: '》';
+    position: relative;
+    left: 10px;
+    
+}
+.banner_button:hover,
+.banner_button:active,
+.banner_button:link{
+    color:#fff;
+    background: #14a7e4;
+}
+.banner_fourth_title a:last-child{
+    margin-left: 20px;
+}
