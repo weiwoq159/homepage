@@ -1,15 +1,32 @@
+@font-face {
+    font-family: 'iconfont';
+    /* project id 297215 */
+    src: url('//at.alicdn.com/t/font_297215_4mvgaylxet3s1yvi.eot');
+    src: url('//at.alicdn.com/t/font_297215_4mvgaylxet3s1yvi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_297215_4mvgaylxet3s1yvi.woff') format('woff'), url('//at.alicdn.com/t/font_297215_4mvgaylxet3s1yvi.ttf') format('truetype'), url('//at.alicdn.com/t/font_297215_4mvgaylxet3s1yvi.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 * {
     margin: 0px;
     font-family: "microsoft YaHei";
     text-decoration: none;
     padding: 0px;
 }
+
 a:hover,
 a:active,
 a:link,
-a:visited{
+a:visited {
     text-decoration: none;
 }
+
 .clear {
     clear: both;
 }
@@ -41,9 +58,19 @@ header {
     float: left;
     list-style: none;
     line-height: 67px;
+    text-align: center;
 }
 
 .app_header_ul ul {
     float: right;
 }
 
+.icon-close:before {
+    content: "\e612";
+}
+.modal-dialog{
+    width:440px;
+}
+.input-group{
+    margin:0 auto;
+}

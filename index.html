@@ -47,18 +47,84 @@
             <div class="title_container">
                 <p class="banner_first_title">商誉，诚信为本</p>
                 <span class="banner_line"></span>
-                <p class="banner_second_title">商誉，诚信为本</p>
+                <p class="banner_second_title">千金易得，商誉难求</p>
                 <p class="banner_third_title">为中小微企业提供信用赊账服务</p>
                 <div class="banner_fourth_title">
-                    <a href="#" class="banner_button">登录赊账</a>
+                    <a href="javascript:void(0)" class="banner_button" data-toggle="modal" data-target="#myModal">登录赊账</a>
                     <a href="#" class="banner_button">我要赊账</a>
                 </div>
+                <a href=""><img src="./assets/images/bottom.png" alt="" class="banner_bottom"></a>
             </div>
         </div>
     </div>
+    <!-- 登录模态框 -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a class="iconfont icon-close" href="javascript:void(0)" data-dismiss="modal" aria-label="Close"></a>
+                <p class="banner_modal_title">登录商誉宝</p>
+                <form class="form-inline">
+                    <ul>
+                        <li>
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="glyphicon glyphicon-user"></i></div>
+                                <input type="text" class="form-control" id="telnumber" placeholder="请输入手机号">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></div>
+                                <input type="text" class="form-control" id="password" placeholder="请输入密码">
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="forgetPwd"><a href="javascript:void(0)" data-toggle="modal" data-target="#myModal1" data-dismiss="modal" aria-label="Close">忘记登录密码？</a></p>
+                    <button class="login">登录</button>
+                </form>
+                <!-- 模态框开始-->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- 忘记密码模态框 -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="myModal1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <a class="iconfont icon-close" href="javascript:void(0)" data-dismiss="modal" aria-label="Close"></a>
+                <p class="banner_modal_title">重置密码</p>
+                <form class="form-inline">
+                    <ul>
+                        <li>
+                            <div class="input-group">
+                                <input type="text" class="form-control1" id="tel" placeholder="请输入手机号">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="input-group">
+                                <input type="text" class="form-control2" id="CAPTCHA" placeholder="请输入验证码">
+                                <button type="button" class="form-control3" onclick="time(event)" id="sub">获取验证码</button>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="nextStep">下一步</button>
+                    <p class="modal_return"><a href="">返回登录</a><span class="cut-off">|</span><a href="index.html">返回首页</a></p>
+                </form>
+                <!-- 模态框开始-->
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
 </body>
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/index.js"></script>
 <script src="assets/js/bootstrap.js"></script>
-
+<script>
+    $(document).ready(function () {
+        $('#myModal1').modal()
+    });
+</script>
 </html>

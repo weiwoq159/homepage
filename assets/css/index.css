@@ -37,6 +37,7 @@
 }
 .title_container{
     margin-top: 340px;
+    text-align: center;
 }
 .app_header_ul_right li a {
     font-size: 14px;
@@ -66,8 +67,9 @@
     font-family: "Microsoft YaHei";
     line-height: 1.2;
     text-align: center;
-    letter-spacing: 20px;
+    letter-spacing: 15px;
     margin-top: 24px;
+    font-weight: 500;
 }
 .banner_third_title{
     font-size: 20px;
@@ -84,6 +86,7 @@
     background: #fff;
     border-radius: 5px;
     border: 1px solid #14a7e4;
+    letter-spacing: 3px;
 }
 .banner_button::after{
     content: '》';
@@ -91,12 +94,127 @@
     left: 10px;
     
 }
-.banner_button:hover,
-.banner_button:active,
-.banner_button:link{
+.banner_button:hover
+{
+    color:#fff;
+    background: #14a7e4;
+}
+
+.banner_button:active{
     color:#fff;
     background: #14a7e4;
 }
 .banner_fourth_title a:last-child{
     margin-left: 20px;
+}
+.banner_bottom{
+    position: absolute;
+    bottom:15px;
+}
+/* 模态框开始 */
+.form-inline ul li{
+    list-style: none;
+    margin-top:20px;
+}
+.modal-content{
+    background: rgba(0, 0, 0, 0.5)
+}
+.banner_modal_title{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+.icon-close{
+    font-size: 10px;
+    margin-top:11px;
+    margin-left:8px;
+    color:#fff;
+}
+.input-group{
+    margin:0 auto;
+}
+.form-control{
+    height:46px;
+    width:237px!important;
+}
+.input-group-addon i{
+    font-size: 20px;
+}
+.input-group-addon{
+    padding:11px 17px;
+}
+.forgetPwd{
+    text-align: right;
+    padding-right:77px;
+    font-size: 12px;
+}
+.forgetPwd a{    color: #fff;
+}
+.login{
+    width: 292px;
+    height:40px;
+    background: #14a7e4;
+    color: #fff;
+    border: 1px solid #14a7e4;
+    border-radius: 5px;
+    margin-bottom: 46px;
+}
+.login:hover{
+    background: #14a7e4;
+    color: #fff;
+}
+.form-inline{
+    text-align: center;
+}
+.modal-dialog{
+    margin-top: 336px;
+}
+/*forget password*/
+.form-control1{
+    width: 292px;
+    height:46px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.form-control2{
+    width: 160px;
+    height:46px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.form-control3{
+    width:123px;
+    height:46px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 14px;
+    margin-left: 12px;
+    color:#fff;
+    background: #14a7e4;
+}
+.nextStep{
+    width: 292px;
+    height:40px;
+    background: #14a7e4;
+    color: #fff;
+    border: 1px solid #14a7e4;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.cut-off{
+    margin:0 12px;
+    color: #fff;
+}
+.modal_return a{
+    font-size: 12px;
+    color: #fff;
+}
+.modal_return{
+    margin-top:20px;  
+    margin-bottom: 31px;
 }
