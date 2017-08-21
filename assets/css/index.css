@@ -1,8 +1,7 @@
 .app_banner {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0px;
+    position: relative;
     padding: 0px;
     overflow: hidden;
 }
@@ -25,25 +24,24 @@
 }
 
 .app_banner_child ul li {
+    width: 33.33%;
     list-style: none;
     height: 100%;
     float: left;
 }
 
-.app_header_ul_right li {
-    width: 60px;
-    text-align: center;
-    margin-left: 20px;
+.app_banner_child ul li img {
+    width: 100%;
 }
-.title_container{
+
+
+
+.title_container {
     margin-top: 340px;
     text-align: center;
 }
-.app_header_ul_right li a {
-    font-size: 14px;
-    color: rgb(253, 250, 250);
-    line-height: 1.2;
-}
+
+
 
 .app_banner_title p {
     text-align: center;
@@ -71,150 +69,307 @@
     margin-top: 24px;
     font-weight: 500;
 }
-.banner_third_title{
+
+.banner_third_title {
     font-size: 20px;
     letter-spacing: 8px;
-    margin-top:36px;
+    margin-top: 36px;
 }
-.banner_fourth_title{
+
+.banner_fourth_title {
     margin-top: 83px;
     text-align: center;
 }
-.banner_button{
+
+.banner_button {
     color: #14a7e4;
-    padding:8px 32px;
+    padding: 8px 32px;
     background: #fff;
     border-radius: 5px;
     border: 1px solid #14a7e4;
     letter-spacing: 3px;
 }
-.banner_button::after{
+
+.banner_button::after {
     content: '》';
     position: relative;
     left: 10px;
-    
 }
-.banner_button:hover
-{
-    color:#fff;
+
+.banner_button:hover {
+    color: #fff;
     background: #14a7e4;
 }
 
-.banner_button:active{
-    color:#fff;
+.banner_button:active {
+    color: #fff;
     background: #14a7e4;
 }
-.banner_fourth_title a:last-child{
+
+.banner_fourth_title a:last-child {
     margin-left: 20px;
 }
-.banner_bottom{
+
+.banner_bottom {
     position: absolute;
-    bottom:15px;
+    bottom: 15px;
 }
+
+
 /* 模态框开始 */
-.form-inline ul li{
+
+.form-inline ul li {
     list-style: none;
-    margin-top:20px;
+    margin-top: 20px;
 }
-.modal-content{
+
+.modal-content {
     background: rgba(0, 0, 0, 0.5)
 }
-.banner_modal_title{
+
+.banner_modal_title {
     text-align: center;
     font-size: 18px;
     color: #fff;
     font-weight: 600;
 }
-.icon-close{
+
+.icon-close {
     font-size: 10px;
-    margin-top:11px;
-    margin-left:8px;
-    color:#fff;
+    margin-top: 11px;
+    margin-left: 8px;
+    color: #fff;
 }
-.input-group{
-    margin:0 auto;
+
+.input-group {
+    margin: 0 auto;
 }
-.form-control{
-    height:46px;
-    width:237px!important;
+
+.form-control {
+    height: 46px;
+    width: 237px!important;
 }
-.input-group-addon i{
+
+.input-group-addon i {
     font-size: 20px;
 }
-.input-group-addon{
-    padding:11px 17px;
+
+.input-group-addon {
+    padding: 11px 17px;
 }
-.forgetPwd{
+
+.forgetPwd {
     text-align: right;
-    padding-right:77px;
+    padding-right: 77px;
     font-size: 12px;
 }
-.forgetPwd a{    color: #fff;
+
+.forgetPwd a {
+    color: #fff;
 }
-.login{
+
+.login {
     width: 292px;
-    height:40px;
+    height: 40px;
     background: #14a7e4;
     color: #fff;
     border: 1px solid #14a7e4;
     border-radius: 5px;
     margin-bottom: 46px;
 }
-.login:hover{
+
+.login:hover {
     background: #14a7e4;
     color: #fff;
 }
-.form-inline{
+
+.form-inline {
     text-align: center;
 }
-.modal-dialog{
+
+.modal-dialog {
     margin-top: 336px;
 }
+
+
 /*forget password*/
-.form-control1{
+
+.form-control1 {
     width: 292px;
-    height:46px;
+    height: 46px;
     border-radius: 5px;
     border-style: none;
     padding-left: 10px;
     font-size: 14px;
 }
-.form-control2{
+
+.form-control2 {
     width: 160px;
-    height:46px;
+    height: 46px;
     border-radius: 5px;
     border-style: none;
     padding-left: 10px;
     font-size: 14px;
 }
-.form-control3{
-    width:123px;
-    height:46px;
+
+.form-control3 {
+    width: 123px;
+    height: 46px;
     border-radius: 5px;
     border-style: none;
     font-size: 14px;
     margin-left: 12px;
-    color:#fff;
+    color: #fff;
     background: #14a7e4;
 }
-.nextStep{
+
+.nextStep {
     width: 292px;
-    height:40px;
+    height: 40px;
     background: #14a7e4;
     color: #fff;
     border: 1px solid #14a7e4;
     border-radius: 5px;
     margin-top: 10px;
 }
-.cut-off{
-    margin:0 12px;
+
+.cut-off {
+    margin: 0 12px;
     color: #fff;
 }
-.modal_return a{
+
+.modal_return a {
     font-size: 12px;
     color: #fff;
 }
-.modal_return{
-    margin-top:20px;  
+
+.modal_return {
+    margin-top: 20px;
     margin-bottom: 31px;
+}
+
+
+/* main body */
+
+.index_secondFloor {
+    background: url('../images/index_secondFloor.png');
+}
+
+.homepage_main {
+    position: relative;
+}
+
+.main_title {
+    color: #14a7e4;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.main_slogan {
+    font-size: 16px;
+    color: #8d8a8a;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main_circle {
+    width: 115px;
+    height: 115px;
+    border: 1px solid #14a7e4;
+    text-align: CENTER;
+    vertical-align: middle;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.icon li {
+    text-align: center;
+    width: 33%;
+    list-style: none;
+    float: left;
+}
+
+.icon li p {
+    font-size: 18px;
+    color: #1b1a1f;
+    text-align: center;
+}
+
+.more {
+    margin-left: 0!important;
+}
+
+.learn_more {
+    margin-top: 56px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.thirdFloor {
+    margin: 70px 0;
+}
+
+.thirdFloor_img {
+    width: 78px;
+    height: 78px;
+    border: 1px solid #14a7e4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdFloor_left {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.thirdFloor_left span {
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    color: rgb(80, 80, 80);
+    line-height: 1.2;
+    padding-left: 20px;
+    position: relative;
+    background: #f7f7f7;
+    left: -20px;
+}
+
+.thirdFloor_columns p {
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(141, 138, 138);
+    line-height: 1.2;
+    margin-top: 30px;
+}
+.index_thirdFloor .container{
+    padding:0 130px;
+}
+.line{
+    width: 1px;
+    height:100px;
+    border-left: 1px solid #ccc;
+}
+.parse{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+.thirdFloor_columns .learn_more{
+    margin-top:51px;
+    margin-bottom: 86px;
+}
+.index_thirdFloor{
+    background: url('../images/thirdFloor_columns.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }

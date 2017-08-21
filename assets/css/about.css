@@ -1,0 +1,104 @@
+.about_banner,
+.about_banner img{
+    width:100%;
+}
+.about_intro{
+    background: #fafafa;
+}
+.intro_title{
+    font-size: 30px;
+    color: #14a7e4;
+    padding-top: 67px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.intro_title1{
+    font-size: 16px;
+    color: #14a7e4;
+    text-align: center;
+    padding-bottom:84px;
+    border-bottom: 1px solid #ccc;
+
+}
+.intro_article{
+    position: relative;
+    top:-24px;
+    text-align: center;
+    padding-bottom:81px;
+}
+.com_intro{
+    font-size: 24px;
+    color:#202020;
+    text-align: center;
+    background: #fafafa;
+    width:50%;
+    display: block;
+    margin:0 auto;
+}
+.intro_main:first-child{
+    margin-top: 32px;
+}
+.intro_main{
+        font-size: 16px;
+        font-family: "Microsoft YaHei";
+        color: rgb(32, 32, 32);
+        line-height: 2.063;
+        text-align: center;
+}
+.culture_icons{
+    width: 90px;
+    height: 90px;
+    border: 1px solid #14a7e4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.com_culture{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:59px;
+}
+.com_culture1{
+    width:50%;
+    font-size: 24px;
+    color:#202020;
+    text-align: center;
+    display: block;
+}
+
+.transverse{
+    width:25%;
+    border-bottom: 1px solid #ccc;
+    height:1px;
+}
+
+.culture_line{
+    margin-top: 86px;
+    margin-bottom: 117px;
+}
+.culture_icon{
+    width: 20%;
+    float: left;
+}
+.culture_icons{
+    margin: 0 auto;
+}
+.culture_title{
+    font-size: 16px;
+    margin: 15px 0 20px 0px;
+    text-align: center;
+    color:#1b1c1f;
+    font-weight: 600;
+}
+.culture_main{
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    color: #202020;
+}
+.about_culture{
+    background: url('../images/about_culture.png');
+    background-size: 100% 100%;
+}

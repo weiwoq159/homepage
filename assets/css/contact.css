@@ -1,0 +1,94 @@
+body {
+    background: #fafafa;
+}
+
+.app_header {
+    border-bottom: 1px solid #fff;
+}
+
+.contact_banner,
+.contact_banner img {
+    width: 100%;
+}
+
+.FandA_title {
+    font-size: 18px;
+    color: #141414;
+    padding-bottom: 8px;
+    margin: 31px 0 21px 0;
+    border-bottom: 1px solid #14a7e4;
+}
+
+.bottom,
+.top {
+    float: right;
+}
+
+.top {
+    display: none;
+}
+
+.question {
+    font-size: 18px;
+    color: #14a7e4;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.FandA_box {
+    padding: 24px 11px 20px 29px;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.anwser {
+    font-size: 14px;
+    color: #696464;
+    margin-top: 19px;
+    margin-bottom: 0px;
+    display: none;
+}
+
+.contactMe p {
+    font-size: 16px;
+    color: #232323;
+    text-align: center;
+}
+
+.phone::before {
+    content: url('../images/phone.png');
+    position: relative;
+    top: 5px;
+    left: -10px;
+}
+
+.joinEmail::before {
+    content: url('../images/join.png');
+    position: relative;
+    top: 5px;
+    left: -10px;
+}
+
+.consociationemail::before {
+    content: url('../images/consociation.png');
+    position: relative;
+    top: 5px;
+    left: -10px;
+}
+
+.userEmail::before {
+    content: url('../images/user.png');
+    position: relative;
+    top: 5px;
+    left: -10px;
+}
+
+.address::before {
+    content: url('../images/address.png');
+    position: relative;
+    top: 5px;
+    left: -10px;
+}
+#allmap {width: 100%;height: 647px;overflow: hidden;margin:0;font-family:"微软雅黑";}
