@@ -19,7 +19,30 @@
     text-decoration: none;
     padding: 0px;
 }
-
+.active{
+    border-bottom: 2px solid #14a7e4;
+}
+.active1 a{
+    color: #14a7e4!important;
+}
+.secondNav{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top:67px;
+    background:rgba(255,255,255,0.3);
+    z-index: 999;
+    display: none;
+}
+.secondNav li{
+    text-align: center;
+    width:60px;
+    list-style: none;
+    padding:12px 0;
+}
+.secondNav li a{
+    color: #14a7e4;
+}
 a:hover,
 a:active,
 a:link,
@@ -77,6 +100,16 @@ header {
 .input-group {
     margin: 0 auto;
 }
+.FandA_title {
+    font-size: 18px;
+    color: #141414;
+    padding-bottom: 8px;
+    margin: 31px 0 21px 0;
+    border-bottom: 1px solid #14a7e4;
+}
+.contact_banner img{
+    width:100%
+}
 /* footer */
 .footer_right{
     padding-top:35px;
@@ -113,4 +146,140 @@ footer{
     width: 60px;
     text-align: center;
     margin-left: 20px;
+}
+
+.footer_left_second li a:hover{
+    color: #14a7e4;
+}
+
+/* 模态框开始 */
+
+.form-inline ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.modal-content {
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.banner_modal_title {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.icon-close {
+    font-size: 10px;
+    margin-top: 11px;
+    margin-left: 8px;
+    color: #fff;
+}
+
+.input-group {
+    margin: 0 auto;
+}
+
+.form-control {
+    height: 46px;
+    width: 237px!important;
+}
+
+.input-group-addon i {
+    font-size: 20px;
+}
+
+.input-group-addon {
+    padding: 11px 17px;
+}
+
+.forgetPwd {
+    text-align: right;
+    padding-right: 77px;
+    font-size: 12px;
+}
+
+.forgetPwd a {
+    color: #fff;
+}
+
+.login {
+    width: 292px;
+    height: 40px;
+    background: #14a7e4;
+    color: #fff;
+    border: 1px solid #14a7e4;
+    border-radius: 5px;
+    margin-bottom: 46px;
+}
+
+.login:hover {
+    background: #14a7e4;
+    color: #fff;
+}
+
+.form-inline {
+    text-align: center;
+}
+
+.modal-dialog {
+    margin-top: 336px;
+}
+
+
+/*forget password*/
+
+.form-control1 {
+    width: 292px;
+    height: 46px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.form-control2 {
+    width: 160px;
+    height: 46px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.form-control3 {
+    width: 123px;
+    height: 46px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 14px;
+    margin-left: 12px;
+    color: #fff;
+    background: #14a7e4;
+}
+
+.nextStep {
+    width: 292px;
+    height: 40px;
+    background: #14a7e4;
+    color: #fff;
+    border: 1px solid #14a7e4;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cut-off {
+    margin: 0 12px;
+    color: #fff;
+}
+
+.modal_return a {
+    font-size: 12px;
+    color: #fff;
+}
+
+.modal_return {
+    margin-top: 20px;
+    margin-bottom: 31px;
 }

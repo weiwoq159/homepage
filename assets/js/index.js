@@ -2,7 +2,7 @@
  * @Author: 马强 
  * @Date: 2017-08-15 14:25:22 
  * @Last Modified by: 马强
- * @Last Modified time: 2017-08-21 13:04:10
+ * @Last Modified time: 2017-08-28 17:54:04
  */
 // 轮播图
 var arry = [];
@@ -15,11 +15,11 @@ $(document).ready(function () {
     console.log(arry)
     var int = setInterval(function(){
         if(num >= arry.length){
-            $('.app_banner_child ul').animate({left:'0'},2000)
+            $('.app_banner_child ul').animate({left:'0'},Wwidth)
             num = 1
         }
         else{
-             $('.app_banner_child ul').animate({left:num * -1900},2000)
+             $('.app_banner_child ul').animate({left:num * -Wwidth},2000)
              num++
             
         }
@@ -59,4 +59,33 @@ $('.FandA_box').on('click', function () {
         $(this).find('.question img').show();
         $(this).find('.top').hide();
     }
+});
+/*导航颜色*/ 
+$('.app_header_ul_right li').hover(function(){
+    $(this).addClass('active1')
+},function(){
+    $(this).removeClass('active1')
+})
+/*二级导航 */
+$('.main').hover(function () {
+        $('.secondNav').show()
+    }, function () {
+        // out
+    }
+);
+$('.secondNav').hover(function () {
+        // over
+    }, function () {
+        // out
+        $(this).hide()
+    }
+);
+
+/**/
+$(document).ready(function () {
+    console.log('---------------------------')
+    console.log($('.main').offset().left);
+    console.log('---------------------------')
+    $('.secondNav').css('padding-left', $('.main').offset().left)
+
 });
